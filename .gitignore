@@ -1,0 +1,19 @@
+# IDE and build artifacts
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+target/
+build/
+
+# SDK-specific files, local output, and secrets
+**/config/*.lic
+**/config/*license*
+**/output/
+**/logs/
+.env
+.env.*
+*.key
+*.p12
+*.jks
